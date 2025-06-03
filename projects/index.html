@@ -5,7 +5,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects | Nafis Arefin</title>
-  <link rel="stylesheet" href="/assets/css/stylesheet.css">
+  <link rel="icon" href="https://nafisarefin.github.io/favicon.ico">
+  <link rel="canonical" href="https://nafisarefin.github.io/projects/">
+  <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" rel="preload stylesheet" as="style">
   <style>
     .project-grid {
       display: grid;
@@ -42,10 +44,12 @@
   </style>
 </head>
 
-<body>
+<body class="list" id="top">
   <header class="header">
     <nav class="nav">
-      <div class="logo"><a href="/">Nafis Arefin</a></div>
+      <div class="logo">
+        <a href="/">Nafis Arefin</a>
+      </div>
       <ul id="menu">
         <li><a href="/education/">Education</a></li>
         <li><a href="/projects/" class="active">Projects</a></li>
@@ -60,24 +64,29 @@
       <h1>Research Projects</h1>
     </header>
 
-    <div class="project-grid">
-      <a class="project-card" href="/projects/embolism-modeling/">
-        <div class="project-title">CFD-Based Embolism Modeling</div>
-        <div class="project-desc">Lagrangian particle tracking in patient-specific vasculature to assess stroke and organ damage risks.</div>
-      </a>
-      <a class="project-card" href="/projects/fefet-mdn/">
-        <div class="project-title">Probabilistic Modeling of FeFET Devices</div>
-        <div class="project-desc">Developed a quantile-based neural network to model device-to-device variation for circuit design.</div>
-      </a>
-      <a class="project-card" href="/projects/image-based-simulation/">
-        <div class="project-title">Image-Based Simulation Workflow</div>
-        <div class="project-desc">Integrated CT/MRI with CFD pipelines for anatomical model generation and physiological simulation.</div>
-      </a>
+    <div class="post-content">
+      <div class="project-grid">
+        <a class="project-card" href="/projects/embolism-modeling/">
+          <div class="project-title">CFD-Based Embolism Modeling</div>
+          <div class="project-desc">Lagrangian particle tracking in patient-specific vasculature to assess stroke and organ damage risks.</div>
+        </a>
+        <a class="project-card" href="/projects/fefet-mdn/">
+          <div class="project-title">Probabilistic Modeling of FeFET Devices</div>
+          <div class="project-desc">Developed a quantile-based neural network to model device-to-device variation for circuit design.</div>
+        </a>
+        <a class="project-card" href="/projects/image-based-simulation/">
+          <div class="project-title">Image-Based Simulation Workflow</div>
+          <div class="project-desc">Integrated CT/MRI with CFD pipelines for anatomical model generation and physiological simulation.</div>
+        </a>
+      </div>
     </div>
   </main>
 
   <footer class="footer">
-    <span>&copy; 2025 Nafis Arefin</span> · Powered by <a href="https://gohugo.io/">Hugo</a>
+    <span>&copy; 2025 <a href="https://nafisarefin.github.io/">Nafis Arefin</a></span> &middot; 
+    <span>
+      Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+    </span>
   </footer>
 </body>
 
