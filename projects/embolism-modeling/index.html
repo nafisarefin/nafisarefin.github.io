@@ -8,6 +8,43 @@
   <link rel="icon" href="https://nafisarefin.github.io/favicon.ico">
   <link rel="canonical" href="https://nafisarefin.github.io/projects/embolism-modeling/">
   <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" rel="preload stylesheet" as="style">
+  <style>
+    .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 3%;
+    }
+
+    .text-section {
+      flex: 2;
+      font-size: 0.96rem;
+      line-height: 1.65;
+      text-align: justify;
+    }
+
+    .image-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .image-section img {
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    h1.page-title {
+      font-size: 1.6rem;
+      text-align: center;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 
 <body class="list" id="top">
@@ -26,30 +63,36 @@
   </header>
 
   <main class="main">
-    <header class="page-header">
-      <h1>CFD-Based Validated Emboli Tracking Study in a Patient-Specific Aorta During Cardiopulmonary Bypass</h1>
-    </header>
+    <h1 class="page-title">CFD-Based Embolism Modeling During Cardiopulmonary Bypass</h1>
 
-    <div class="post-content" style="max-width: 800px; margin: auto; font-size: 0.9rem; line-height: 1.5;">
-      <p>
-        This research explores how emboli—tiny particles that can cause strokes or organ damage—move through the body during cardiopulmonary bypass (CPB), a common surgical technique used in open-heart procedures. By simulating patient-specific aortic anatomies, this work identifies how variations in blood flow can alter embolic risk in critical regions like the brain, kidneys, and liver. The goal is to support safer surgical planning through predictive modeling of embolus trajectories.
-      </p>
+    <div class="content-wrapper">
+      <div class="text-section">
+        <p>
+          This research explores how emboli—tiny particles that can cause strokes or organ damage—move through the body during cardiopulmonary bypass (CPB), a common surgical technique used in open-heart procedures. By simulating patient-specific aortic anatomies, this work identifies how variations in blood flow can alter embolic risk in critical regions like the brain, kidneys, and liver. The goal is to support safer surgical planning through predictive modeling of embolus trajectories.
+        </p>
 
-      <p>
-        A combined experimental and computational pipeline was developed, using a 3D-printed aorta model and mock circulatory loop for in vitro validation. Computational fluid dynamics (CFD) simulations were conducted in OpenFOAM with Lagrangian Particle Tracking (LPT) to model embolus movement under different CPB flow conditions. Outlet boundary conditions were tuned to replicate physiological flow splits, and flow validation was performed via flowmeter readings and dye-based tracer imaging.
-      </p>
+        <p>
+          A combined experimental and computational pipeline was developed, using a 3D-printed aorta model and mock circulatory loop for in vitro validation. Computational fluid dynamics (CFD) simulations were conducted in OpenFOAM with Lagrangian Particle Tracking (LPT) to model embolus movement under different CPB flow conditions. Outlet boundary conditions were tuned to replicate physiological flow splits, and flow validation was performed via flowmeter readings and dye-based tracer imaging.
+        </p>
 
-      <p>
-        This project integrates skills in CT/MRI-based anatomical reconstruction, mesh generation, CFD solver configuration, and embolus transport analysis. The results show that embolic risk is strongly influenced by particle size, blood viscosity, and flow rate, with the Stokes number emerging as a reliable metric for trajectory prediction. This framework offers valuable insights for optimizing CPB surgical protocols and reducing embolic complications.
-      </p>
+        <p>
+          This project integrates skills in CT/MRI-based anatomical reconstruction, mesh generation, CFD solver configuration, and embolus transport analysis. The results show that embolic risk is strongly influenced by particle size, blood viscosity, and flow rate, with the Stokes number emerging as a reliable metric for trajectory prediction. This framework offers valuable insights for optimizing CPB surgical protocols and reducing embolic complications.
+        </p>
 
-      <hr style="margin-top: 2.2rem;">
+        <hr style="margin-top: 2.2rem;">
 
-      <p style="font-size: 0.8rem;">
-        <strong>Related Publication:</strong><br>
-        Arefin N, Good BC. Hemodynamic and embolic response to cannula orientation and flow settings during cardiopulmonary bypass. <em>Biomechanics and Modeling in Mechanobiology</em>. 2024.<br>
-        <a href=""https://nafisarefin.github.io/projects/embolism-modeling/Arefin N, Good B_BMMB.pdf" target="_blank">[View Full Paper]</a>
-      </p>
+        <p style="font-size: 0.9rem;">
+          <strong>Publication:</strong><br>
+          Arefin N, Good BC. Hemodynamic and embolic response to cannula orientation and flow settings during cardiopulmonary bypass. <em>Biomechanics and Modeling in Mechanobiology</em>, 2024.<br>
+          <a href="https://nafisarefin.github.io/projects/embolism-modeling/Arefin%20N,%20Good%20B_BMMB.pdf" target="_blank">[View Full Paper]</a>
+        </p>
+      </div>
+
+      <div class="image-section">
+        <img src="/projects/embolism-modeling/placeholder1.png" alt="Figure 1">
+        <img src="/projects/embolism-modeling/placeholder2.png" alt="Figure 2">
+        <img src="/projects/embolism-modeling/placeholder3.png" alt="Figure 3">
+      </div>
     </div>
   </main>
 
@@ -60,7 +103,5 @@
     </span>
   </footer>
 </body>
-
-</html>
 
 </html>
