@@ -10,20 +10,23 @@
   <style>
     .content-wrapper {
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       align-items: flex-start;
       gap: 2rem;
       max-width: 1100px;
       margin: auto;
-      padding: 2rem 1rem 2rem 1rem;
+      padding: 2rem 1rem 2rem 0.5rem; /* reduced left padding */
     }
 
     .text-section {
       flex: 2;
-      font-size: 0.96rem;
+      font-size: 0.9rem; /* decreased font size */
       line-height: 1.65;
-      text-align: left;
-      margin-left: 0;
+      text-align: justify; /* text justification enabled */
+    }
+
+    .text-section p {
+      margin-bottom: 1.2rem; /* added space between paragraphs */
     }
 
     .image-section {
@@ -42,8 +45,7 @@
     h1.page-title {
       font-size: 1.6rem;
       text-align: left;
-      margin-top: 2rem;
-      margin-left: 1rem;
+      margin-left: 0.5rem; /* reduced left margin */
     }
   </style>
 </head>
@@ -105,4 +107,3 @@
   </footer>
 </body>
 </html>
-
