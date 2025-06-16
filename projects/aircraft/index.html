@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CFD-Based Embolism Modeling | Nafis Arefin</title>
+  <link rel="icon" href="https://nafisarefin.github.io/favicon.ico">
+  <link rel="canonical" href="https://nafisarefin.github.io/projects/embolism-modeling/">
+  <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" rel="preload stylesheet" as="style">
+  <style>
+    .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 2rem;
+      max-width: 1100px;
+      margin: auto;
+      padding: 2rem 1rem 2rem 0rem; /* reduced left padding */
+    }
 
+    .text-section {
+      flex: 2;
+      font-size: 0.9rem; /* decreased font size */
+      line-height: 1.65;
+      text-align: justify; /* text justification enabled */
+    }
+
+    .text-section p {
+      margin-bottom: 1.2rem; /* added space between paragraphs */
+    }
+
+    .image-section {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .image-section img {
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    h1.page-title {
+      font-size: 1.6rem;
+      text-align: left;
+      margin-left: 0rem; /* reduced left margin */
+    }
+  </style>
+</head>
+
+<body class="list" id="top">
+  <header class="header">
+    <nav class="nav">
+      <div class="logo">
+        <a href="/">Nafis Arefin</a>
+      </div>
+      <ul id="menu">
+        <li><a href="/education/">Education</a></li>
+        <li><a href="/projects/" class="active">Projects</a></li>
+        <li><a href="/conferences/">Conferences</a></li>
+        <li><a href="/hobbies/">Hobbies</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <h1 class="page-title">Prediction of Aerodynamic Coefficients for Cirrus SR22 via Open-Source CFD and Advanced Turbulence Modeling</h1>
+
+    <div class="content-wrapper">
+      <div class="text-section">
+        <p>
+          This study investigates the aerodynamic behavior of the Cirrus SR22 light aircraft through CFD simulations using open-source tools. The primary aim was to estimate the coefficient of lift and drag under cruise conditions while validating the results against existing experimental and computational data.
+        <p>
+          A full watertight geometry of the aircraft was developed in OpenVSP using authentic design dimensions. This model was meshed using CfMesh and simulated in OpenFOAM employing the K-kL-ω SST turbulence model—a laminar kinetic-based transition model capable of capturing boundary layer effects with high accuracy.
+
+        <p>
+         This project demonstrates strong proficiency in CAD geometry creation, open-source mesh generation, turbulence model selection, boundary condition specification, solver control setup, and post-processing using ParaView and Gnuplot. Mesh refinement studies and convergence analysis were carried out to ensure simulation robustness.
+
+        </p>
+Results showed that the computed coefficient of drag (0.01876) and lift (1.97102) closely matched published benchmarks (Hardie, 2006; Harloff & Gary, 2014), with an error margin within 8.5%. Advanced flow visualizations including q-criterion, vorticity, and streamlines were also generated to understand complex wake behavior and flow separation zones.
+        
+        </p>
+        
+
+        <hr style="margin-top: 2.2rem;">
+
+        <p style="font-size: 0.9rem;">
+
+      </div>
+
+      <div class="image-section">
+    <img src="https://nafisarefin.github.io/projects/embolism-modeling/project1a.png" alt="Figure 1" style="width: 300%; max-width: 500px;">
+<img src="https://nafisarefin.github.io/projects/embolism-modeling/Project1b.png" alt="Figure 2" style="width: 200%; max-width: 400px;">
+<img src="https://nafisarefin.github.io/projects/embolism-modeling/Project3.png" alt="Figure 3" style="width: 200%; max-width: 400px;">
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <span>&copy; 2025 <a href="https://nafisarefin.github.io/">Nafis Arefin</a></span> &middot;
+    <span>
+      Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+    </span>
+  </footer>
+</body>
+</html>
