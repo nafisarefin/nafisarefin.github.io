@@ -20,12 +20,13 @@
 
     .project-card {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       border: 1px solid #ccc;
       border-radius: 8px;
       padding: 1rem;
       background-color: #fff;
       transition: box-shadow 0.3s;
+      gap: 1.2rem;
     }
 
     .project-card:hover {
@@ -33,12 +34,10 @@
     }
 
     .project-image {
-      flex-shrink: 0;
-      width: 100px;
-      height: 100px;
-      margin-right: 1rem;
+      width: 120px;
+      height: auto;
       border-radius: 6px;
-      object-fit: cover;
+      object-fit: contain;
     }
 
     .project-info {
@@ -47,7 +46,7 @@
     }
 
     .project-title {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       font-weight: bold;
       margin-bottom: 0.4rem;
     }
@@ -82,7 +81,7 @@
     <div class="post-content">
       <div class="project-grid">
         <a class="project-card" href="/projects/embolism-modeling/">
-         <img class="project-image" src="https://nafisarefin.github.io/projects/embolism-modeling/Project1b.png" alt="Embolism Modeling" style="width: 100%; max-width: 300px;">
+          <img class="project-image" src="https://nafisarefin.github.io/projects/embolism-modeling/Project1b.png" alt="Embolism Modeling">
           <div class="project-info">
             <div class="project-title">Validated Emboli Tracking Study in Patient-Specific Aorta</div>
             <div class="project-desc">CFD-Lagrangian particle tracking study in patient-specific vasculature to assess stroke risks.</div>
@@ -90,41 +89,39 @@
         </a>
 
         <a class="project-card" href="/projects/abdominal/">
-          <img class="project-image" src="https://nafisarefin.github.io/projects/abdominal/project2a.png" alt="Embolism Modeling" style="width: 100%; max-width: 300px;">
+          <img class="project-image" src="https://nafisarefin.github.io/projects/abdominal/project2a.png" alt="Abdominal Emboli Study">
           <div class="project-info">
             <div class="project-title">Hemodynamics in Abdominal Aorta to assess Acute Kidney and Liver Injury</div>
             <div class="project-desc">First study of its kind to track emboli and assess visceral organ injury risk during cardiopulmonary bypass.</div>
           </div>
         </a>
 
-  
-
         <a class="project-card" href="/projects/cannula/">
-          <img class="project-image" src="https://nafisarefin.github.io/projects/cannula/project3a.png" alt="Image-Based Simulation" alt="Embolism Modeling" style="width: 100%; max-width: 300px;">
+          <img class="project-image" src="https://nafisarefin.github.io/projects/cannula/project3a.png" alt="Cannula Orientation Study">
           <div class="project-info">
             <div class="project-title">Influence of Cannula Orientation and Atherosclerotic Plaque Disruption</div>
-            <div class="project-desc">Computational study to assess stroke and plaque distuption risk in patient-specific aortas of patient from different age groups with varying cannula orientation.</div>
+            <div class="project-desc">Computational study to assess stroke and plaque disruption risk in patient-specific aortas from different age groups with varying cannula orientation.</div>
           </div>
         </a>
 
-         <a class="project-card" href="/projects/aortaCow/">
-          <img class="project-image" src="https://nafisarefin.github.io/projects/aortaCow/project4a.png" alt="Embolism Modeling" style="width: 100%; max-width: 300px;">
+        <a class="project-card" href="/projects/aortaCow/">
+          <img class="project-image" src="https://nafisarefin.github.io/projects/aortaCow/project4a.png" alt="Aorta Circle of Willis Study">
           <div class="project-info">
-            <div class="project-title">Emboli Transport in Aortic-CoW Pathways During CPB></div>
+            <div class="project-title">Emboli Transport in Aortic-CoW Pathways During CPB</div>
             <div class="project-desc">Integrated experimental and computational study of hemodynamics and emboli transport in the thoracic aorta and Circle of Willis during cardiopulmonary bypass.</div>
           </div>
         </a>
 
-         <a class="project-card" href="/projects/PIV/">
-          <img class="project-image" src="https://nafisarefin.github.io/projects/project5a.png" alt="Embolism Modeling" style="width: 100%; max-width: 300px;">
+        <a class="project-card" href="/projects/PIV/">
+          <img class="project-image" src="https://nafisarefin.github.io/projects/project5a.png" alt="PIV-PLIF Thrombosis">
           <div class="project-info">
             <div class="project-title">Thrombosis Risk in Aneurysmal Arteries via PIV-PLIF</div>
             <div class="project-desc">Experimental study combining PIV and PLIF to investigate flow patterns and thrombus formation in aneurysmal arteries.</div>
           </div>
         </a>
 
-         <a class="project-card" href="/projects/aircraft/">
-          <img class="project-image" src="https://nafisarefin.github.io/projects/aircraft/project6c.png" alt="Embolism Modeling" style="width: 100%; max-width: 300px;">
+        <a class="project-card" href="/projects/aircraft/">
+          <img class="project-image" src="https://nafisarefin.github.io/projects/aircraft/project6c.png" alt="Aircraft Simulation">
           <div class="project-info">
             <div class="project-title">Aerodynamic Coefficient Prediction for Cirrus SR22</div>
             <div class="project-desc">CCFD-based analysis using open-source tools and advanced turbulence modeling to predict aerodynamic coefficients for the Cirrus SR22 aircraft.</div>
@@ -140,6 +137,10 @@
       Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
     </span>
   </footer>
+</body>
+
+</html>
+
 </body>
 
 </html>
