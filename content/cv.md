@@ -3,12 +3,6 @@ title: "Curriculum Vitae"
 hideMeta: true
 ---
 
-<p style="margin-bottom:1.5rem;">
-  <a class="button" href="/cv.pdf" target="_blank" rel="noopener" title="Download CV (PDF)">
-    <span class="button-inner">&#8681;&nbsp;Download full CV (PDF)</span>
-  </a>
-</p>
-
 <h3>Current Position</h3>
 <ul style="list-style:none; padding-left:0;">
   <li><strong>Postdoctoral Researcher</strong>, Texas A&amp;M University &mdash; Houston, TX <span style="float:right; color:#888;">Dec 2025 &ndash; Present</span><br>

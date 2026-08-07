@@ -3,6 +3,11 @@ title: "Conference Presentations"
 hideMeta: true
 ---
 
+<figure style="margin:0 auto 1.8rem; max-width:520px; text-align:center;">
+  <img src="/speaking.jpg" alt="Presenting at the Cardiovascular Implant Durability Conference, 2025" style="width:100%; border-radius:8px; border:1px solid #ccc;">
+  <figcaption style="font-size:0.82rem; color:#777; margin-top:0.4rem;">Invited talk at the Cardiovascular Implant Durability Conference (CVID) &mdash; California, 2025</figcaption>
+</figure>
+
 <div class="conference-container">
   <div class="conference-content">
     <ul>
