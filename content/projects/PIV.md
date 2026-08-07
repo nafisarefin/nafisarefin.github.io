@@ -2,7 +2,6 @@
 title: "Thrombosis Risk in Aneurysmal Arteries via PIV–PLIF"
 weight: 50
 summary: "Experimental PIV/PLIF study of flow patterns and thrombus formation in aneurysmal arteries."
-pub: 'H. Li, N. Arefin, B. Good. Flow-Induced Thrombosis in Aneurysmal Arteries: A Combined Particle Image Velocimetry (PIV) and Planar Laser-Induced Fluorescence (PLIF) Study <em>(in preparation)</em>.'
 ---
 
 This experimental study investigates how blood-flow patterns inside aneurysmal arteries promote thrombus (clot) formation and growth. Aneurysms disrupt normal flow, creating recirculation and stagnation zones where clots are prone to develop, and understanding this coupling is important for assessing rupture and occlusion risk.
