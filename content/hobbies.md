@@ -5,7 +5,6 @@ hideMeta: true
 
 <div class="hobby-wrapper">
   <div class="hobby-images">
-    <img src="/hobbies/hob1.jpeg" alt="Hobby Image Left 1">
     <img src="/hobbies/hob6.JPG" alt="Hobby Image Left 2">
     <img src="/hobbies/hob4.jpeg" alt="Hobby Image Left 3">
   </div>
@@ -21,6 +20,5 @@ hideMeta: true
   <div class="hobby-images">
     <img src="/hobbies/hob3.jpeg" alt="Hobby Image Right 1">
     <img src="/hobbies/hob5.jpg" alt="Hobby Image Right 2">
-    //<img src="/hobbies/hob2.jpeg" alt="Hobby Image Right 3">
   </div>
 </div>
