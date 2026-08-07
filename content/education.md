@@ -8,8 +8,10 @@ hideMeta: true
     <img src="/education/defense.jpg" alt="Ph.D. dissertation defense" style="width:100%; border-radius:6px; border:1px solid #ccc;">
     <figcaption style="font-size:0.8rem; color:#777; margin-top:0.35rem; text-align:center;">Ph.D. dissertation defense - University of Tennessee, Knoxville (Nov 2025)</figcaption>
   </figure>
-  <img src="/education/edu2.jpg" alt="" style="width:100%; border-radius:6px; border:1px solid #ccc; margin-bottom:1rem;text-align:center;">Bachelor's degree Convocation - IIU Malaysia (Nov 2018)</figcaption>>
-    </figure>
+  <figure style="margin:0;">
+    <img src="/education/edu2.jpg" alt="Bachelor's degree convocation" style="width:100%; border-radius:6px; border:1px solid #ccc;">
+    <figcaption style="font-size:0.8rem; color:#777; margin-top:0.35rem; text-align:center;">Bachelor's degree Convocation - IIU Malaysia (Nov 2018)</figcaption>
+  </figure>
 </div>
 
 <h2 style="font-size:1.5rem; margin-top:0.2rem;">Graduate</h2>
@@ -55,12 +57,11 @@ hideMeta: true
     <div style="display:flex; align-items:center; gap:0.6em;">
       <img src="/ndc.png" alt="NDC" style="height:34px;">
       <strong>Notre Dame College &mdash; Bangladesh</strong>
-       </div>
+    </div>
     <div style="padding-left:2.9rem; font-size:0.95rem; line-height:1.55;">
       Higher Secondary School Certificate&nbsp;&middot;&nbsp;<em>2013</em>
     </div>
   </li>
-</ul>
   <li style="margin-bottom:1.3em;">
     <div style="display:flex; align-items:center; gap:0.6em;">
       <img src="/joseph.png" alt="St. Joseph" style="height:34px;">
@@ -71,6 +72,7 @@ hideMeta: true
     </div>
   </li>
 </ul>
+
 <h2 style="font-size:1.5rem;">Elementary</h2>
 <ul style="list-style:none; padding-left:0;">
   <li style="margin-bottom:1.3em;">
