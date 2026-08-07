@@ -6,7 +6,7 @@ summary: "Validated aorta-to-Circle-of-Willis model linking surgical inflow to c
 figures:
   - src: "/projects/aortaCow/project4a.png"
     style: "width: 300%; max-width: 500px;"
-pub: 'N. Arefin, B. Good. Cerebral Occlusion Risk During Cardiopulmonary Bypass: A Validated Aorta-to-Circle-of-Willis Hemodynamic Model. <em>Annals of Biomedical Engineering</em> (submitted).'
+pub: 'N. Arefin, B. Good. Cerebral Occlusion Risk During Cardiopulmonary Bypass: A Validated Aorta-to-Circle-of-Willis Hemodynamic Model. <em>Annals of Biomedical Engineering</em> (in-preparation).'
 ---
 
 This project traces how emboli released during cardiopulmonary bypass (CPB) travel from the thoracic aorta into the cerebral circulation, all the way to the Circle of Willis (CoW), the arterial ring that supplies the brain. Because occlusion of these vessels is a direct pathway to peri-operative stroke, the study connects surgical inflow conditions to downstream cerebral occlusion risk in a single, anatomically continuous model.
