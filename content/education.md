@@ -6,10 +6,9 @@ hideMeta: true
 <div style="float: right; width: 300px; margin: 0 0 1rem 2rem;">
   <figure style="margin:0 0 1rem;">
     <img src="/education/defense.jpg" alt="Ph.D. dissertation defense" style="width:100%; border-radius:6px; border:1px solid #ccc;">
-    <figcaption style="font-size:0.8rem; color:#777; margin-top:0.35rem; text-align:center;">Ph.D. dissertation defense &mdash; University of Tennessee, Knoxville (Nov 2025)</figcaption>
+    <figcaption style="font-size:0.8rem; color:#777; margin-top:0.35rem; text-align:center;">Ph.D. dissertation defense - University of Tennessee, Knoxville (Nov 2025)</figcaption>
   </figure>
   <img src="/education/edu2.jpg" alt="" style="width:100%; border-radius:6px; border:1px solid #ccc; margin-bottom:1rem;">
-  <img src="/education/edu3.JPG" alt="" style="width:100%; border-radius:6px; border:1px solid #ccc;">
 </div>
 
 <h2 style="font-size:1.5rem; margin-top:0.2rem;">Graduate</h2>
