@@ -16,7 +16,7 @@ figures:
 
 This study investigates the aerodynamic behavior of the Cirrus SR22 light aircraft through CFD simulations using open-source tools. The primary aim was to estimate the coefficient of lift and drag under cruise conditions while validating the results against existing experimental and computational data.
 
-A full watertight geometry of the aircraft was developed in OpenVSP using authentic design dimensions. This model was meshed using cfMesh and simulated in OpenFOAM employing the k-kL-ω SST turbulence model — a laminar-kinetic-energy-based transition model capable of capturing boundary-layer effects with high accuracy.
+A full watertight geometry of the aircraft was developed in OpenVSP using authentic design dimensions. This model was meshed using cfMesh and simulated in OpenFOAM employing the k-kL-ω SST turbulence model, a laminar-kinetic-energy-based transition model capable of capturing boundary-layer effects with high accuracy.
 
 This project demonstrates strong proficiency in CAD geometry creation, open-source mesh generation, turbulence model selection, boundary condition specification, solver control setup, and post-processing using ParaView and Gnuplot. Mesh refinement studies and convergence analysis were carried out to ensure simulation robustness.
 
