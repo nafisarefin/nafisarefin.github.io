@@ -1,0 +1,30 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <h1 class="page-title">{{ .Title }}</h1>
+
+  <div class="content-wrapper">
+    <div class="text-section">
+      {{ .Content }}
+
+      {{- with .Params.pub }}
+      <hr style="margin-top: 2.2rem;">
+      <p style="font-size: 0.9rem;">{{ . | safeHTML }}</p>
+      {{- end }}
+    </div>
+
+    {{- with .Params.figures }}
+    <div class="image-section">
+      {{- range . }}
+      <img src="{{ .src }}" alt="{{ .alt | default "figure" }}"{{ with .style }} style="{{ . | safeCSS }}"{{ end }}>
+      {{- end }}
+    </div>
+    {{- end }}
+  </div>
+
+  <p style="max-width:1100px;margin:1.5rem auto 0;font-size:0.9rem;">
+    <a href="/projects/">&larr; Back to all projects</a>
+  </p>
+</article>
+
+{{- end }}

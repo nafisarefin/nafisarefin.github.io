@@ -1,0 +1,93 @@
+/* ============================================================
+   Custom styles for nafisarefin.github.io
+   (consolidated from the site's former inline <style> blocks)
+   ============================================================ */
+
+/* Hide the back-to-top link (kept off to match the original site) */
+.top-link { display: none; }
+
+/* ---------- Homepage profile: flow from top, left-aligned ---------- */
+.profile { min-height: auto; padding: 2.5rem 0 1rem; }
+.profile .profile_inner { align-items: flex-start; max-width: 800px; text-align: left; }
+.profile .profile_inner h1 { text-align: left; margin-bottom: 0.3em; }
+.profile .profile_inner span { display: block; text-align: left; line-height: 1.6; }
+.profile .profile_inner img { border-radius: 0; margin-bottom: 1em; }
+.profile .social-icons { justify-content: flex-start; margin: 0.4rem 0; }
+.profile .buttons { justify-content: flex-start; }
+
+/* ---------- Projects grid (projects list page) ---------- */
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.project-card {
+  display: flex;
+  align-items: flex-start;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+  transition: box-shadow 0.3s;
+  gap: 1.2rem;
+  color: inherit;
+}
+.project-card:hover { box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+.project-image { width: 240px; height: auto; border-radius: 6px; object-fit: contain; }
+.project-info { display: flex; flex-direction: column; }
+.project-title { font-size: 1.1rem; font-weight: bold; margin-bottom: 0.4rem; }
+.project-desc { font-size: 0.95rem; color: #333; }
+
+/* ---------- Project detail pages (two-column) ---------- */
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem 2rem 0rem;
+}
+.text-section { flex: 2; font-size: 0.9rem; line-height: 1.65; text-align: justify; }
+.text-section p { margin-bottom: 1.2rem; }
+.image-section { flex: 1; display: flex; flex-direction: column; gap: 1rem; }
+.image-section img { width: 100%; border-radius: 6px; border: 1px solid #ccc; }
+h1.page-title { font-size: 1.6rem; text-align: left; margin-left: 0rem; }
+
+/* ---------- Conferences (two-column) ---------- */
+.conference-container {
+  display: flex;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 0.1rem;
+}
+.conference-content { flex: 2; font-size: 0.95rem; line-height: 1.6; }
+.conference-images { flex: 1; display: flex; flex-direction: column; gap: 1rem; }
+.conference-images img { width: 100%; border-radius: 6px; border: 1px solid #ccc; }
+
+/* ---------- Hobbies (three-column) ---------- */
+.hobby-wrapper {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.hobby-images { flex: 1; display: flex; flex-direction: column; gap: 1rem; }
+.hobby-images img { width: 100%; border-radius: 6px; border: 1px solid #ccc; }
+.hobby-content { flex: 2; font-size: 1rem; line-height: 1.65; }
+.hobby-content ul { padding-left: 1.2rem; }
+.hobby-content li { margin-bottom: 1.2rem; }
+
+/* ---------- Responsive: stack the two/three-column layouts on mobile ---------- */
+@media (max-width: 700px) {
+  .content-wrapper, .conference-container, .hobby-wrapper { flex-direction: column; }
+  .project-card { flex-direction: column; }
+  .project-image { width: 100%; }
+}

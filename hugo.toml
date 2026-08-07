@@ -1,0 +1,118 @@
+baseURL = "https://nafisarefin.github.io/"
+languageCode = "en-us"
+title = "Nafis Arefin"
+theme = "PaperMod"
+enableRobotsTXT = true
+enableEmoji = true
+
+# Allow raw HTML inside Markdown (used by a few design-heavy pages)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  env = "production"
+  author = "Nafis Arefin"
+  description = "Nafis Arefin — Postdoctoral Researcher in cardiovascular biomechanics at Texas A&M University (Texas Medical Center, Houston). Patient-specific CFD, FSI, FEA, digital twins, and machine learning for coronary artery disease and stroke-risk prediction."
+
+  # Appearance (light theme, no dark-mode toggle — matches the current site)
+  defaultTheme = "light"
+  disableThemeToggle = true
+
+  # Turn off blog-style chrome so pages read like a personal site, not a blog
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  disableScrollToTop = true
+
+  # ---- Homepage (PaperMod "profile mode") ----
+  [params.profileMode]
+    enabled = true
+    title = "Nafis Arefin"
+    imageUrl = "dp2.png"
+    imageTitle = "Nafis Arefin"
+    imageWidth = 180
+    imageHeight = 180
+    subtitle = """
+Hello! I'm Nafis, a Postdoctoral Researcher in the Cardiovascular Pathomechanics Lab at Texas A&M University, based at the Texas Medical Center in Houston. I work with Dr. Lucas Timmins (Texas A&M) and Dr. Sadeer Al-Kindi (Houston Methodist Hospital).
+
+My research builds patient-specific computational models and image-based digital twins of the cardiovascular system — combining CFD, fluid–structure interaction, and finite element analysis with deep learning and uncertainty quantification to improve clinical decision-making for coronary artery disease and stroke risk.
+
+I completed my Ph.D. in Biomedical Engineering at the University of Tennessee, Knoxville, advised by Dr. Bryan Good, where my dissertation examined embolic transport and aortic hemodynamics to assess ischemic stroke risk during cardiopulmonary bypass. Earlier, I earned my M.S. in Mechanical Engineering from UTS, Australia, and my B.S. in Aerospace Engineering from IIUM, Malaysia. I grew up in Dhaka, Bangladesh.
+"""
+
+    [[params.profileMode.buttons]]
+      name = "Research"
+      url = "/research/"
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "/projects/"
+    [[params.profileMode.buttons]]
+      name = "Publications"
+      url = "/publications/"
+    [[params.profileMode.buttons]]
+      name = "Education"
+      url = "/education/"
+    [[params.profileMode.buttons]]
+      name = "Conferences"
+      url = "/conferences/"
+    [[params.profileMode.buttons]]
+      name = "CV"
+      url = "/cv/"
+    [[params.profileMode.buttons]]
+      name = "Contact"
+      url = "/contact/"
+
+  # ---- Social icons (rendered under the bio) ----
+  [[params.socialIcons]]
+    name = "cv"
+    title = "CV"
+    url = "/cv.pdf"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/narefin/"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:narefin@tamu.edu"
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=xhOPI6kAAAAJ&hl=en"
+  [[params.socialIcons]]
+    name = "orcid"
+    url = "https://orcid.org/0000-0003-4908-0403"
+
+# ---- Top navigation ----
+[menu]
+  [[menu.main]]
+    name = "Education"
+    url = "/education/"
+    weight = 10
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 20
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 30
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 40
+  [[menu.main]]
+    name = "Conferences"
+    url = "/conferences/"
+    weight = 50
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 60
+  [[menu.main]]
+    name = "Hobbies"
+    url = "/hobbies/"
+    weight = 70
