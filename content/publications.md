@@ -16,9 +16,11 @@ For the most current list, see my [Google Scholar](https://scholar.google.com/ci
 8. S. Khan, et al., N. Arefin. Design Development of a Gravity-Powered Fan Using Gear Transmission. *International Journal of Engineering & Technology*, 2018.
 
 ### Manuscripts Under Preparation
-1. N. Arefin, B. Good. Cerebral Occlusion Risk During Cardiopulmonary Bypass: A Validated Aorta-to-Circle-of-Willis Hemodynamic Model. *Annals of Biomedical Engineering* (submitted).
-2. N. Arefin, C. Georgiadis, M. Usman, A. Narayan, L. Timmins. Quantifying Deep Learning Segmentation-Driven Geometric Uncertainty in Coronary FFR-CT Predictions.
-3. O. Dillenbeck, N. Arefin, L. Timmins. Evaluating the Impact of Atherectomy on Arterial Compliance in Patient-Specific Peripheral Artery Disease.
+1. N. Arefin, B. Good. Cerebral Occlusion Risk During Cardiopulmonary Bypass: A Validated Aorta-to-Circle-of-Willis Hemodynamic Model.
+2. M. Usman, N. Arefin, A. Narayan, L. Timmins. Integrating Uncertainty Quantification into Computational Fluid Dynamics
+Models of Coronary Arteries Under Pulsatile Flow.
+3. N. Arefin, C. Georgiadis, M. Usman, A. Narayan, L. Timmins. Quantifying Deep Learning Segmentation-Driven Geometric Uncertainty in Coronary FFR-CT Predictions.
+4. O. Dillenbeck, N. Arefin, L. Timmins. Evaluating the Impact of Atherectomy on Arterial Compliance in Patient-Specific Peripheral Artery Disease.
 
 ### Conference Presentations
 1. N. Arefin, B. Good. Cannula-Driven Hemodynamics and Embolic Transport During Cardiopulmonary Bypass Using Validated Patient-Specific CFD–LPT Modeling. *10th World Congress of Biomechanics*, 2026 (Vancouver, Canada).
