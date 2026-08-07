@@ -11,7 +11,7 @@ figures:
 pub: 'Arefin N, Good B. Angled Aortic Cannulation Reduces Cerebral Embolic Transport and Adverse Wall Loading During Cardiopulmonary Bypass: A Patient-Specific Hemodynamic Study. <em>Cardiovascular Engineering and Technology</em>. 2026.'
 ---
 
-This study investigates the influence of varying cannula angle to assess atherosclerotic plaque disruption and stroke risk during cardiopulmonary bypass (CPB), a life-saving surgical procedure. It is the first study to examine this effect across multiple age groups — including pediatric, adolescent, adult, and geriatric patients.
+This study investigates the influence of varying cannula angle to assess atherosclerotic plaque disruption and stroke risk during cardiopulmonary bypass (CPB), a life-saving surgical procedure. It is the first study to examine this effect across multiple age groups, including pediatric, adolescent, adult, and geriatric patients.
 
 Embolic transport was modeled using Computational Fluid Dynamics (CFD) and Lagrangian Particle Tracking (LPT) in OpenFOAM, with validation based on prior in-vitro experiments. Simulations were performed under six different conditions by varying blood viscosities (1.5–3.5 cP) and two cannula orientations: perpendicular and 30 degrees angled toward the aortic arch.
 
