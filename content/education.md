@@ -55,18 +55,22 @@ hideMeta: true
     <div style="display:flex; align-items:center; gap:0.6em;">
       <img src="/ndc.png" alt="NDC" style="height:34px;">
       <strong>Notre Dame College &mdash; Bangladesh</strong>
+       </div>
+    <div style="padding-left:2.9rem; font-size:0.95rem; line-height:1.55;">
+      Higher Secondary School Certificate&nbsp;&middot;&nbsp;<em>2013</em>
     </div>
-    <div style="padding-left:2.9rem; font-size:0.95rem;">Higher Secondary Certificate (HSC)</div>
   </li>
+</ul>
   <li style="margin-bottom:1.3em;">
     <div style="display:flex; align-items:center; gap:0.6em;">
       <img src="/joseph.png" alt="St. Joseph" style="height:34px;">
       <strong>St. Joseph Higher Secondary School &mdash; Bangladesh</strong>
     </div>
-    <div style="padding-left:2.9rem; font-size:0.95rem;">Secondary School Certificate (SSC)</div>
+    <div style="padding-left:2.9rem; font-size:0.95rem; line-height:1.55;">
+      Secondary School Certificate&nbsp;&middot;&nbsp;<em>2011</em>
+    </div>
   </li>
 </ul>
-
 <h2 style="font-size:1.5rem;">Elementary</h2>
 <ul style="list-style:none; padding-left:0;">
   <li style="margin-bottom:1.3em;">
