@@ -45,9 +45,9 @@ enableEmoji = true
     subtitle = """
 Hello! I'm Nafis, a Postdoctoral Researcher in the Cardiovascular Pathomechanics Lab at Texas A&M University, based at the Texas Medical Center in Houston.
 
-My research builds patient-specific computational models and image-based digital twins of the cardiovascular system — combining CFD, fluid–structure interaction, and finite element analysis with deep learning and uncertainty quantification to improve clinical decision-making for coronary artery disease and stroke risk.
+My research builds patient-specific computational models and image-based digital twins of the cardiovascular system, combining CFD, FSI, and FEA with deep learning and uncertainty quantification to improve clinical decision-making for coronary artery disease and stroke risk.
 
-I completed my Ph.D. in Biomedical Engineering at the University of Tennessee, Knoxville, where my dissertation examined embolic transport and aortic hemodynamics to assess ischemic stroke risk during cardiopulmonary bypass. Earlier, I earned my M.S. in Mechanical Engineering from UTS, Australia, and my B.S. in Aerospace Engineering from IIUM, Malaysia. I grew up in Dhaka, Bangladesh.
+I completed my Ph.D. in Biomedical Engineering at the University of Tennessee, Knoxville, where my dissertation focused on embolic transport and aortic hemodynamics to assess ischemic stroke risk during cardiopulmonary bypass. Earlier, I had my M.S. in Mechanical Engineering from UTS, Australia, and my B.S. in Aerospace Engineering from IIUM, Malaysia. I grew up in Dhaka, Bangladesh.
 """
 
     [[params.profileMode.buttons]]
